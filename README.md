@@ -13,3 +13,6 @@ The server will write this on STDOUT:
 ```
 POST /: 'HelloWorld'
 ```
+
+# Usage with docker:
+Even easier to use with docker: `docker run -p 1234:1234/udp registry.gitlab.com/debuglevel/coap-log-server -p 1234`
